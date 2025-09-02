@@ -32,3 +32,5 @@ resource "azurerm_storage_account" "testvips" {
   account_tier             = "Standard"
   account_replication_type = "LRS"
 }
+
+#add new line
