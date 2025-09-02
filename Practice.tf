@@ -31,4 +31,9 @@ resource "azurerm_storage_account" "testvips" {
   location                 = var.sachin_location[count.index]
   account_tier             = "Standard"
   account_replication_type = "LRS"
-}# Vipin is our Mentor
+}
+
+# Vipin is our Mentor
+#add new line
+
+
