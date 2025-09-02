@@ -33,4 +33,7 @@ resource "azurerm_storage_account" "testvips" {
   account_replication_type = "LRS"
 }
 
+# Vipin is our Mentor
 #add new line
+
+
