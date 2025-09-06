@@ -36,4 +36,7 @@ resource "azurerm_storage_account" "testvips" {
 # Vipin is our Mentor
 #add new line
 
-
+resource "azurerm_resouce_group" "Testvipin" {
+  name     = "Testvipin-rg"
+  location = "West US"
+}
